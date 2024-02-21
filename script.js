@@ -77,18 +77,17 @@ function playGame() {
     let playerScore = 0;
     let computerScore = 0;
 
-    for (i = 1; i < 5; i++)
-    {
+    while (playerScore < 5 && computerScore < 5)
+    {   
         playRound(playerSelection(), computerSelection());
         if (result === 'win') {
             playerScore++;
         }
+        
         else if (result === 'loss' ) {
             computerScore++;
         }
-        else if (result === 'draw') {
-            i--;
-        }
+    
         alert(`Score: Player ${playerScore}, Computer ${computerScore}`);
     }
 }
