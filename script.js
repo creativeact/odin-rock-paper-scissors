@@ -3,6 +3,8 @@ const choices = ['rock', 'paper', 'scissors'];
 const rock = document.querySelector('#rock');
 const paper = document.querySelector('#paper');
 const scissors = document.querySelector('#scissors');
+const playerScore = document.querySelector('#player-score');
+const computerScore = document.querySelector('#computer-score');
 
 // Randomly choose for the computer
 let computerSelection = function() {
