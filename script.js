@@ -1,5 +1,8 @@
 // Declare choices array for the game
 const choices = ['rock', 'paper', 'scissors'];
+const rock = document.querySelector('#rock');
+const paper = document.querySelector('#paper');
+const scissors = document.querySelector('#scissors');
 
 // Randomly choose for the computer
 let computerSelection = function() {
