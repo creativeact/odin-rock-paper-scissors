@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock, Paper, Scissors</title>
     <link href="style.css" rel="stylesheet">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
     <div id="header">
@@ -24,18 +24,18 @@
     </div>
     
     <div id="results-container">
-        <p id="selections"></p>
+        <p id="commentary"></p>
         
-        <div id="player">
-            <h3>Player Score</h3>
-            <p id="player-score"></p>
+        <div id="scores-container">
+            <div id="player">
+                <h3>Player Score</h3>
+                <p id="player-score"></p>
+            </div>
+            <div id="computer">
+                <h3>Computer Score</h3>
+                <p id="computer-score"></p>
+            </div>
         </div>
-
-        <div id="computer">
-            <h3>Computer Score</h3>
-            <p id="computer-score"></p>
-        </div>
-    
     </div>
     
 </body>
